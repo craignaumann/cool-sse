@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    link(rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js')
+    script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    script(src='/assets/javascripts/sse.js')
+  body
+    .container
+      h1 Server Side Events - Example Application
+      table#event-table.table.table-bordered.table-striped.table-hover
+        tbody

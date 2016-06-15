@@ -1,0 +1,15 @@
+{
+  "name": "sse-example",
+  "version": "1.0.0",
+  "description": "Simple SSE(Server Sent Event) Implementation",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Craig Naumann",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "sse": "0.0.6"
+  }
+}
